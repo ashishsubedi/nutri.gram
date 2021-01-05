@@ -21,8 +21,8 @@ cp -R opencv2.framework nutri.gram/ios
 - Download [this](https://github.com/tesseract-ocr/tessdata_best/blob/master/eng.traineddata) and put it in directory `ml/tessdata/`
 - Download [this](https://github.com/oyyd/frozen_east_text_detection.pb/blob/master/frozen_east_text_detection.pb) and put it in directory `ml/models/`
 - `cd ml`
+- Run `python -m venv venv` and `source activate venv/bin/activate` in bash, or `venv\Scripts\activate.bat` in windows cmd.
 - Run `pip install requirements.txt`
-- Download following files and put in respective path
 - Execute `flask run`
 
 ## Node Server
